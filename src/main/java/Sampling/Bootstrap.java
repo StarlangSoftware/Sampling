@@ -6,6 +6,12 @@ import java.util.Random;
 public class Bootstrap<T> {
     private ArrayList<T> instanceList;
 
+    /**
+     * Constructor of Bootstrap class.
+     * It loops through the size of given data size and generates a sample distribution of random samples from given sample.
+     * @param instanceList data to resample
+     * @param seed integer input for random generator
+     */
     public Bootstrap(ArrayList<T> instanceList, int seed){
         int N;
         Random random = new Random(seed);
