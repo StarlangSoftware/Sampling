@@ -16,6 +16,10 @@ public class Bootstrap<T> {
         }
     }
 
+    /**
+     * accessor method to return instance list
+     * @return arrayList<T> instanceList
+     */
     public ArrayList<T> getSample(){
         return instanceList;
     }
