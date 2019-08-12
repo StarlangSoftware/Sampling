@@ -6,6 +6,13 @@ import java.util.Random;
 public class Bootstrap<T> {
     private ArrayList<T> instanceList;
 
+    /**
+     * A constructor of {@link Bootstrap} class which takes a sample an array of instances and a seed number, then creates a bootstrap
+     * sample using this seed as random number.
+     *
+     * @param instanceList  Original sample
+     * @param seed Random number to create boostrap sample
+     */
     public Bootstrap(ArrayList<T> instanceList, int seed){
         int N;
         Random random = new Random(seed);
@@ -16,6 +23,11 @@ public class Bootstrap<T> {
         }
     }
 
+    /**
+     * getSample returns the produced bootstrap sample.
+     *
+     * @return Produced bootstrap sample
+     */
     public ArrayList<T> getSample(){
         return instanceList;
     }
