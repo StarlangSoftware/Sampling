@@ -85,11 +85,9 @@ Sampling
 
 ### Maven Usage
 
-    <groupId>NlpToolkit</groupId>
-    <artifactId>Sampling</artifactId>
-    <version>1.0.0</version>
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
+	<dependency>
+  	<groupId>NlpToolkit</groupId>
+  	<artifactId>Sampling</artifactId>
+  	<version>1.0.0</version>
+	</dependency>
 
