@@ -1,8 +1,9 @@
 # Sampling
+
 For Developers
 ============
-You can also see either [Python](https://github.com/olcaytaner/Sampling-Py) 
-or [C++](https://github.com/olcaytaner/Sampling-CPP) repository.
+You can also see [Python](https://github.com/olcaytaner/Sampling-Py), [C++](https://github.com/olcaytaner/Sampling-CPP), or [C#](https://github.com/olcaytaner/Sampling-CS) repository.
+
 ## Requirements
 
 * [Java Development Kit 8 or higher](#java), Open JDK or Oracle JDK
@@ -76,12 +77,11 @@ Use below line to generate jar file:
 
 ## Maven Usage
 
-	<dependency>
-  	<groupId>NlpToolkit</groupId>
-  	<artifactId>Sampling</artifactId>
-  	<version>1.0.0</version>
-	</dependency>
-
+        <dependency>
+            <groupId>io.github.starlangsoftware</groupId>
+            <artifactId>Sampling</artifactId>
+            <version>1.0.0</version>
+        </dependency>
 
 ------------------------------------------------
 
