@@ -1,6 +1,6 @@
 For Developers
 ============
-You can also see [Python](https://github.com/olcaytaner/Sampling-Py), [C++](https://github.com/olcaytaner/Sampling-CPP), or [C#](https://github.com/olcaytaner/Sampling-CS) repository.
+You can also see [Python](https://github.com/olcaytaner/Sampling-Py), [C++](https://github.com/olcaytaner/Sampling-CPP), [Swift](https://github.com/olcaytaner/Sampling-Swift), or [C#](https://github.com/olcaytaner/Sampling-CS) repository.
 
 ## Requirements
 
