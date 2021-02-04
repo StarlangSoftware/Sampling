@@ -1,7 +1,7 @@
 For Developers
 ============
 
-You can also see [Python](https://github.com/starlangsoftware/Sampling-Py), [C++](https://github.com/starlangsoftware/Sampling-CPP), [Swift](https://github.com/starlangsoftware/Sampling-Swift), or [C#](https://github.com/starlangsoftware/Sampling-CS) repository.
+You can also see [Python](https://github.com/starlangsoftware/Sampling-Py), [Cython](https://github.com/starlangsoftware/Sampling-Cy), [C++](https://github.com/starlangsoftware/Sampling-CPP), [Swift](https://github.com/starlangsoftware/Sampling-Swift), or [C#](https://github.com/starlangsoftware/Sampling-CS) repository.
 
 ## Requirements
 
