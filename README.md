@@ -1,4 +1,4 @@
-Sampling Strategies
+Sampling Strategies [![Video](Video)](https://youtu.be/wijWOiv70nE)
 ============
 
 ## K-Fold cross-validation
