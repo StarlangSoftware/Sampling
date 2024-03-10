@@ -5,8 +5,8 @@ import java.util.Collections;
 import java.util.Random;
 
 public class StratifiedKFoldCrossValidation<T> extends CrossValidation<T>{
-    private ArrayList<T>[] instanceLists;
-    private int[] N;
+    private final ArrayList<T>[] instanceLists;
+    private final int[] N;
 
     /**
      * A constructor of {@link StratifiedKFoldCrossValidation} class which takes as set of class samples as an array of array of instances, a K (K in K-fold cross-validation) and a seed number,
@@ -33,7 +33,7 @@ public class StratifiedKFoldCrossValidation<T> extends CrossValidation<T>{
      * @return Produced training sample
      */
     public ArrayList<T> getTrainFold(int k){
-        ArrayList<T> trainFold = new ArrayList<T>();
+        ArrayList<T> trainFold = new ArrayList<>();
         for (int i = 0; i < N.length; i++){
             for (int j = 0; j < (k * N[i]) / K; j++){
                 trainFold.add(instanceLists[i].get(j));
@@ -52,7 +52,7 @@ public class StratifiedKFoldCrossValidation<T> extends CrossValidation<T>{
      * @return Produced testing sample
      */
     public ArrayList<T> getTestFold(int k){
-        ArrayList<T> testFold = new ArrayList<T>();
+        ArrayList<T> testFold = new ArrayList<>();
         for (int i = 0; i < N.length; i++){
             for (int j = (k * N[i]) / K; j < ((k + 1) * N[i]) / K; j++){
                 testFold.add(instanceLists[i].get(j));

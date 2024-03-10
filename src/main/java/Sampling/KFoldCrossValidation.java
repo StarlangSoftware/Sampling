@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Random;
 
 public class KFoldCrossValidation<T> extends CrossValidation<T>{
-    private List<T> instanceList;
-    private int N;
+    private final List<T> instanceList;
+    private final int N;
 
     /**
      * A constructor of {@link KFoldCrossValidation} class which takes a sample as an array of instances, a K (K in K-fold cross-validation) and a seed number,
@@ -31,7 +31,7 @@ public class KFoldCrossValidation<T> extends CrossValidation<T>{
      * @return Produced training sample
      */
     public ArrayList<T> getTrainFold(int k){
-        ArrayList<T> trainFold = new ArrayList<T>();
+        ArrayList<T> trainFold = new ArrayList<>();
         for (int i = 0; i < (k * N) / K; i++){
             trainFold.add(instanceList.get(i));
         }
@@ -48,7 +48,7 @@ public class KFoldCrossValidation<T> extends CrossValidation<T>{
      * @return Produced testing sample
      */
     public ArrayList<T> getTestFold(int k){
-        ArrayList<T> testFold = new ArrayList<T>();
+        ArrayList<T> testFold = new ArrayList<>();
         for (int i = (k * N) / K; i < ((k + 1) * N) / K; i++){
             testFold.add(instanceList.get(i));
         }

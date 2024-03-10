@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Bootstrap<T> {
-    private ArrayList<T> instanceList;
+    private final ArrayList<T> instanceList;
 
     /**
      * A constructor of {@link Bootstrap} class which takes a sample an array of instances and a seed number, then creates a bootstrap
@@ -17,7 +17,7 @@ public class Bootstrap<T> {
         int N;
         Random random = new Random(seed);
         N = instanceList.size();
-        this.instanceList = new ArrayList<T>();
+        this.instanceList = new ArrayList<>();
         for (int i = 0; i < N; i++){
             this.instanceList.add(instanceList.get(random.nextInt(N)));
         }
