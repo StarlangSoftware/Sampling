@@ -16,11 +16,6 @@ Video Lectures
 
 [<img src=video.jpg width="50%">](https://youtu.be/wijWOiv70nE)
 
-Class Diagram
-============
-
-<img src="classDiagram.png">
-
 For Developers
 ============
 
@@ -175,6 +170,10 @@ ve test kümeleri elde edilebilir.
 
 For Contibutors
 ============
+
+### Class Diagram
+
+<img src="classDiagram.png">
 
 ### pom.xml file
 1. Standard setup for packaging is similar to:
